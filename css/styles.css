@@ -331,6 +331,21 @@ img {
 ^==================================
 */
 
+.form-title {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 12px;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -357,6 +372,7 @@ img {
   width: 528px;
   height: 581px;
   border-radius: 4px;
+  padding: 40px;
 
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
