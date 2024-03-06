@@ -341,9 +341,33 @@ img {
   margin-bottom: 12px;
 }
 
-.form-group {
+.form-group,
+.form-title-input,
+.form-input {
   display: block;
+}
+
+.form-group {
   margin-bottom: 10px;
+  /* outline: 1px solid red; */
+}
+
+.form-title-input {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-bottom: 4px;
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  /* height: 40px; */
+  font-size: 14px;
+  padding: 12px 12px 12px 42px;
+  outline: transparent;
 }
 
 .backdrop {
